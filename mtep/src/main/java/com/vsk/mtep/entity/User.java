@@ -1,4 +1,6 @@
 package com.vsk.mtep.entity;
+// import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -22,6 +24,7 @@ public class User {
     private String role; // COMPANY_ADMIN
 
     @ManyToOne
+    // @JsonIgnore
     @JoinColumn(name = "tenant_id")
     private Tenant tenant;
      public User() {}

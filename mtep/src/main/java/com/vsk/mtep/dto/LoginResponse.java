@@ -6,4 +6,5 @@ import lombok.Getter;
 @Getter
 public class LoginResponse {
      private final String token;
+     
 }
