@@ -147,8 +147,8 @@ Request
   "companyName": "VSK Technologies",
   "adminName": "Sujith",
   "adminEmail": "sujith@gmail.com",
-  "password": "Password123",
-  "confirmPassword": "Password123"
+  "password": "********",
+  "confirmPassword": "********"
 }
 ```
 
@@ -166,7 +166,7 @@ Request
 ```json
 {
   "email": "sujith@gmail.com",
-  "password": "Password123"
+  "password": "********"
 }
 ```
 
@@ -227,7 +227,7 @@ Authorization: Bearer JWT_TOKEN
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/mtep
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=********
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
